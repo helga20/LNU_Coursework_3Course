@@ -14,3 +14,5 @@ C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.csproj.Gen
 C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.exe
 C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.pdb
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ChoiceMainWindow.g.cs
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ChoiceMainWindow.baml

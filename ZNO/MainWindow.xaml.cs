@@ -27,7 +27,14 @@ namespace ZNO
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
+            Close();
+        }
 
+        private void start_button_Click(object sender, RoutedEventArgs e)
+        {
+            ChoiceMainWindow choice_win = new ChoiceMainWindow();
+            this.Visibility = Visibility.Hidden;
+            choice_win.Show();
         }
     }
 }
