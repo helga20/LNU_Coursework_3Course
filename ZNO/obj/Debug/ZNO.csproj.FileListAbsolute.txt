@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\bin\Debug\ZNO.exe.config
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\bin\Debug\ZNO.exe
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\bin\Debug\ZNO.pdb
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\App.g.cs
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO_MarkupCompile.lref
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.g.resources
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.exe
+C:\Users\Lenovo\source\repos\helga20\LNU_Coursework\ZNO\obj\Debug\ZNO.pdb

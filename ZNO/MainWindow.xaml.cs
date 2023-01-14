@@ -24,5 +24,10 @@ namespace ZNO
         {
             InitializeComponent();
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
