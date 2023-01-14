@@ -89,7 +89,7 @@
                HorizontalAlignment="Left" 
                Margin="390,278,0,0" 
                VerticalAlignment="Top"
-               Foreground="Yellow"
+               Foreground="#FF008FFF"
                FontSize="60"     
                FontWeight="Medium"/>
         <Button x:Name="start_button" Content="Почати підготовку" HorizontalAlignment="Left" Margin="532,407,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="80" Width="364" Background="Yellow" FontSize="35" FontFamily="Swis721 Blk BT" FontWeight="Bold" Cursor="Hand" BorderBrush="#FF008FFF" Foreground="#FF181735">
