@@ -25,7 +25,7 @@
                 FontWeight="Bold" 
                 Cursor="Hand" 
                 BorderBrush="Yellow" 
-                Foreground="#FFE5E4F7" FontStretch="Medium"/>
+                Foreground="#FFE5E4F7" FontStretch="Medium" Click="algebra_button_Click"/>
         <Button x:Name="geometry_button"
             Content="Геометрія" 
             Margin="102,275,102,0" 

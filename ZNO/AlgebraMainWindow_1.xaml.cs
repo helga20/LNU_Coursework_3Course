@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -16,24 +15,20 @@ using System.Windows.Shapes;
 namespace ZNO
 {
     /// <summary>
-    /// Interaction logic for ChoiceMainWindow.xaml
+    /// Interaction logic for AlgebraMainWindow_1.xaml
     /// </summary>
-    public partial class ChoiceMainWindow : Window
+    public partial class AlgebraMainWindow_1 : Window
     {
-        public ChoiceMainWindow()
+        public AlgebraMainWindow_1()
         {
             InitializeComponent();
         }
 
-        private void algebra_button_Copy_Click(object sender, RoutedEventArgs e)
+        private void Next_Page_Menu_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-        private void Back_Menu_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow main_win = new MainWindow();
+            AlgebraMainWindow_2 algebra_win = new AlgebraMainWindow_2();
             this.Visibility = Visibility.Hidden;
-            main_win.Show();
+            algebra_win.Show();
         }
 
         private void Exit_Menu_Click(object sender, RoutedEventArgs e)
@@ -41,11 +36,11 @@ namespace ZNO
             Close();
         }
 
-        private void algebra_button_Click(object sender, RoutedEventArgs e)
+        private void Back_Menu_Click(object sender, RoutedEventArgs e)
         {
-            AlgebraMainWindow_1 algebra_win = new AlgebraMainWindow_1();
-            this.Visibility = Visibility.Hidden;
-            algebra_win.Show();
+            ChoiceMainWindow main_win = new ChoiceMainWindow();
+            this.Visibility= Visibility.Hidden;
+            main_win.Show();
         }
     }
 }
