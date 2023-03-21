@@ -19,7 +19,9 @@ namespace ZNO
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
+    {        
+        // Отримати ширину екрана
+
         public MainWindow()
         {
             InitializeComponent();

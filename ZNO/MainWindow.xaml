@@ -5,69 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZNO"
         mc:Ignorable="d"
-        Title="Підготовка до ЗНО з математики" 
         Height="700" 
         Width="1100"
         WindowStyle="ToolWindow"
         WindowStartupLocation="CenterScreen"
-        Background="#181735">
+        WindowState="Maximized"
+        Background="#222222">
     <Grid>
-        <Grid
-            Margin="224,-217,-1184,-14"
-            Panel.ZIndex="-1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="492*"/>
-                <ColumnDefinition Width="959*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RenderTransform>
-                <RotateTransform Angle="50"/>
-            </Grid.RenderTransform>
-            <StackPanel Orientation="Horizontal"
-                        Margin="-320,208,-285,-208" Grid.ColumnSpan="2">
-                <StackPanel>
-                    <Border Width="700"
-                            Height="35"
-                            Background="#ff008fff"
-                            Margin="150,0,0,0"
-                            CornerRadius="20"/>
-                    <Border Width="700"
-                            Height="35"
-                            Background="Yellow"
-                            Margin="0,15,0,0"
-                            CornerRadius="20"/>
-                </StackPanel>
-                <StackPanel>
-                    <Border Width="700"
-                            Height="35"
-                            Background="Yellow"
-                            Margin="0,15,0,0"
-                            CornerRadius="20"/>
-                    <Border Width="700"
-                            Height="35"
-                            Background="#ff008fff"
-                            Margin="150,15,0,0"
-                            CornerRadius="20"/>
-                </StackPanel>
-            </StackPanel>
-        </Grid>
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="449*"/>
+        </Grid.ColumnDefinitions>
         <Button x:Name="exit" 
-                Grid.Column="1" 
                 Content="Вийти" 
-                Grid.Row="2" 
-                Foreground="White"
+                Foreground="#F4F7F4"
                 FontSize="40"     
                 FontWeight="Medium" 
-                VerticalAlignment="Bottom"
+                VerticalAlignment="Top"
                 HorizontalAlignment="Left"
-                Click="Exit_Click">
+                Click="Exit_Click" 
+                Margin="-13,614,0,0">
 
             <Button.Style>
                 <Style TargetType="Button">
-                    <Setter Property="Background" Value="#39385d"/>
+                    <Setter Property="Background" Value="#932017"/>
                     <Setter Property="Cursor" Value="Hand"/>
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter Property="Background" Value="#3a3952"/>
+                            <Setter Property="Background" Value="#091b0a"/>
                         </Trigger>
                     </Style.Triggers>
                 </Style>
@@ -85,28 +51,29 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Label Content="ЗНО: Математика"
-               HorizontalAlignment="Left" 
-               Margin="450,254,0,0" 
-               VerticalAlignment="Top"
-               Foreground="#FF008FFF"
+        <Label Content="ЗНО: Математика" 
+               Margin="296,228,297,374"
+               Foreground="#35ad2e"
                FontSize="60"     
-               FontWeight="Medium"/>
+               FontWeight="Medium"
+               FontFamily="Roboto" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Button x:Name="start_button" 
-                Content="Почати підготовку"
-                HorizontalAlignment="Left" 
-                Margin="592,383,0,0" 
-                VerticalAlignment="Top" 
+                Content="Почати підготовку" 
                 RenderTransformOrigin="0.5,0.5" 
-                Height="80" 
-                Width="364" 
-                Background="Yellow" 
-                FontSize="35" 
-                FontFamily="Swis721 Blk BT" 
+                Height="110" 
+                Width="500"
+                Background="#35ad2e" 
+                FontSize="38" 
+                FontFamily="Roboto" 
                 FontWeight="Bold" 
                 Cursor="Hand" 
-                BorderBrush="#FF008FFF" 
-                Foreground="#FF181735" Click="start_button_Click">
+                BorderBrush="#1b1a09" 
+                Foreground="#222222" 
+                Click="start_button_Click" 
+                Margin="342,360,340,0" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Top" 
+                >
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

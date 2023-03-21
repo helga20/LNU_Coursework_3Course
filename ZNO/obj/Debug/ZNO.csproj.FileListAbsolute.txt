@@ -38,3 +38,7 @@ D:\cource\ZNO\obj\Debug\AlgebraMainWindow_1.g.cs
 D:\cource\ZNO\obj\Debug\AlgebraMainWindow_2.g.cs
 D:\cource\ZNO\obj\Debug\AlgebraMainWindow_1.baml
 D:\cource\ZNO\obj\Debug\AlgebraMainWindow_2.baml
+C:\Users\Lenovo\Source\Repos\helga20\LNU_Coursework\ZNO\obj\Debug\AlgebraMainWindow_1.g.cs
+C:\Users\Lenovo\Source\Repos\helga20\LNU_Coursework\ZNO\obj\Debug\AlgebraMainWindow_2.g.cs
+C:\Users\Lenovo\Source\Repos\helga20\LNU_Coursework\ZNO\obj\Debug\AlgebraMainWindow_1.baml
+C:\Users\Lenovo\Source\Repos\helga20\LNU_Coursework\ZNO\obj\Debug\AlgebraMainWindow_2.baml
