@@ -121,5 +121,11 @@
   <ItemGroup>
     <Resource Include="Images\close.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZNO.BLL\ZNO.BLL.csproj">
+      <Project>{408a98ae-2690-402d-a1db-28bfc5356b76}</Project>
+      <Name>ZNO.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
