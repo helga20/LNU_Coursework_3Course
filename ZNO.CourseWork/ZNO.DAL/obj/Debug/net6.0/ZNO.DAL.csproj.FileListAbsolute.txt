@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\bin\Debug\net6.0\ZNO.DAL.dll.config
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\bin\Debug\net6.0\ZNO.DAL.deps.json
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\bin\Debug\net6.0\ZNO.DAL.runtimeconfig.json
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\bin\Debug\net6.0\ZNO.DAL.dll
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\bin\Debug\net6.0\ZNO.DAL.pdb
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.dll
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\refint\ZNO.DAL.dll
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.pdb
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ZNO.DAL.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\f1atteee\ZNO.CourseWork\ZNO.DAL\obj\Debug\net6.0\ref\ZNO.DAL.dll
