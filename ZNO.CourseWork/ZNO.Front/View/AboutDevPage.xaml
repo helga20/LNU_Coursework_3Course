@@ -1,0 +1,65 @@
+﻿<Page x:Class="ZNO.Front.View.AboutDevPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZNO.Front.View"
+      Background="{StaticResource ColorBrush.None}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Про Розробника">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="23"></RowDefinition>
+            <RowDefinition Height="23"></RowDefinition>
+            <RowDefinition Height="23"></RowDefinition>
+            <RowDefinition Height="23"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="650"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="25" Style="{StaticResource TextBlock}"> Над проєктом "МАТЕМАТИКА: Повторення" працювали:</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="25" Style="{StaticResource TextBlock}"> Кравець Назар Андрійович ПМО-31</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="25" Style="{StaticResource TextBlock}"> Кравець Ольга Богданівна ПМО-31</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="5" FontSize="16" HorizontalAlignment="Right" Style="{StaticResource TextBlock}"> Львівський національний університет ім. Івана Франка</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="6" FontSize="16" HorizontalAlignment="Right" Style="{StaticResource TextBlock}"> Факультет прикладної математики та інформатики</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="7" FontSize="16" HorizontalAlignment="Right" Style="{StaticResource TextBlock}"> Кафедра програмування</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="8" FontSize="16" HorizontalAlignment="Right" Style="{StaticResource TextBlock}"> 2023</TextBlock>
+
+
+        <StackPanel Grid.Column="2" Grid.Row="9" HorizontalAlignment="Right" VerticalAlignment="Bottom" Panel.ZIndex="0">
+            <StackPanel.RenderTransform>
+                <RotateTransform Angle="345"/>
+            </StackPanel.RenderTransform>
+            <Border Width="3500"
+                            Height="35"
+                            Background="{StaticResource ColorBrush.DarkBack}"
+                            Margin="-1300,95,0,0"
+                            CornerRadius="20"/>
+            <Border Width="3500"
+                            Height="35"
+                            Background="{StaticResource ColorBrush.Green}"
+                            Margin="-1300,15,0,0"
+                            CornerRadius="20"/>
+            <Border Width="3500"
+                            Height="35"
+                            Background="{StaticResource ColorBrush.LightGreen}"
+                            Margin="-1300,15,0,0"
+                            CornerRadius="20"/>
+        </StackPanel>
+
+
+    </Grid>
+    
+</Page>

@@ -1,0 +1,198 @@
+﻿<Window x:Class="ZNO.Front.View.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZNO.Front.View" 
+        xmlns:sys="clr-namespace:System;assembly=netstandard"
+        mc:Ignorable="d"
+        DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=MainMenuModel}"
+        Background="{StaticResource ColorBrush.MainBackground}"
+        Title="Математика: повторення" 
+        Height="650"
+        Width="1187" 
+        Icon="/Resources/mainIcon.ico"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        MouseDown="Window_MouseDown"
+        >
+    <!---->
+
+    <Border>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="0"></RowDefinition>
+                <RowDefinition Height="0"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Border Background="{StaticResource ColorBrush.MainBackground}">
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200" ></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel MaxHeight="80" MaxWidth="200" >
+                        <Button Background="Transparent" Command="{Binding ToHomePageCommand}" BorderBrush="{StaticResource ColorBrush.None}">
+                            <Image Source="/Resources/logo_main.png" Stretch="Fill" StretchDirection="UpOnly" MaxHeight="80" MaxWidth="200" HorizontalAlignment="Right" />
+                        </Button>
+                    </StackPanel>
+                    <StackPanel Grid.Column="2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition Width="40"></ColumnDefinition>
+                                <ColumnDefinition Width="40"></ColumnDefinition>
+                                <ColumnDefinition Width="40"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="40"></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Button Grid.Column="1" Background="{StaticResource ColorBrush.None}" BorderBrush="{StaticResource ColorBrush.None}" Command="{Binding FloatWindowCommand}">
+                                <Image Source="/Resources/float.png" HorizontalAlignment="Center" Height="30" Margin="0, 10"/>
+                            </Button>
+                            <Button Grid.Column="2" Background="{StaticResource ColorBrush.None}" BorderBrush="{StaticResource ColorBrush.None}" Command="{Binding ResizeWindowCommand}">
+                                <Image Source="/Resources/resize.png" HorizontalAlignment="Center" Height="30"/>
+                            </Button>
+                            <Button Grid.Column="3" Background="{StaticResource ColorBrush.None}" BorderBrush="{StaticResource ColorBrush.None}" Command="{Binding CloseWindowCommand}">
+                                <Image Source="/Resources/close.png" HorizontalAlignment="Center" Height="30"/>
+                            </Button>
+                            
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition Width="100*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" ScrollViewer.VerticalScrollBarVisibility="Visible" Background="{StaticResource ColorBrush.MainBackground}">
+                    <Grid>
+                        <StackPanel>
+                            <RadioButton IsChecked="True" Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}" Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>99</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/official.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Актуальні теми" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+
+                            <RadioButton IsChecked="True" Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}" Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>1</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/algebra.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Алгебра" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+
+                            <RadioButton Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}"  Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>2</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/geometry.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Геометрія" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+
+                            <RadioButton Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}" Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>3</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/test.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Минулорічні тести" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+
+                            <RadioButton Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}"  Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>4</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/autors.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Про розробника" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+
+                            <RadioButton Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}"  Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>5</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/stat.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Статистика" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+
+                            <RadioButton Command="{Binding MenuCommand}" Height="50" Style="{StaticResource RadioButton.PressedStyle}"  Background="{StaticResource ColorBrush.MainBackground}">
+                                <RadioButton.CommandParameter>
+                                    <sys:Int32>6</sys:Int32>
+                                </RadioButton.CommandParameter>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="/Resources/exit.png" HorizontalAlignment="Center" Height="30"/>
+                                    <TextBlock Text="Вийти" Foreground="{StaticResource ColorBrush.White}" FontSize="16" FontFamily="Times New Roman"  HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"
+                                               Margin="10,0"/>
+                                </Grid>
+                            </RadioButton>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+                <Border Grid.Column="1"  Background="{StaticResource ColorBrush.MainBackground}" Panel.ZIndex="1">
+                    <Frame NavigationUIVisibility="Hidden" Content="{Binding Page, Mode = OneWay}" Grid.Column="1"/>
+                </Border>
+
+                
+            </Grid>
+        </Grid>
+    </Border>
+</Window>
+    
+    

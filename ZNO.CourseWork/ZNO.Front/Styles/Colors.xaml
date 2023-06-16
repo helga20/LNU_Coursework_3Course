@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="ColorBrush.MainBackground" Color="#39827a" />
+    <SolidColorBrush x:Key="ColorBrush.MainBackgroundLight" Color="#abd6d2" />
+    <SolidColorBrush x:Key="ColorBrush.MenuButton" Color="#913535" />
+    <!--#913535-->
+    <SolidColorBrush x:Key="ColorBrush.White" Color="#e0fff8" />
+    <SolidColorBrush x:Key="ColorBrush.DarkBack" Color="#16524b" />
+    <SolidColorBrush x:Key="ColorBrush.Green" Color="#54c4b8" />
+    <SolidColorBrush x:Key="ColorBrush.LightGreen" Color="#8ccfc7"/>
+    <SolidColorBrush x:Key="ColorBrush.Transparent" Color="#80FFFFFF"/>
+    <SolidColorBrush x:Key="ColorBrush.None" Color="Transparent"/>
+
+    <LinearGradientBrush x:Key="ColorBrush.FoxmindedGradient" StartPoint="0, 0.2" EndPoint="0,1.4">
+        <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#E84545" Offset="1" />
+                <GradientStop Color="#53354A" Offset="0" />
+            </GradientStopCollection>
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+</ResourceDictionary>
