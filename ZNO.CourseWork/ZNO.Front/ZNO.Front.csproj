@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\algebra.png" />
+    <None Remove="Resources\autors.png" />
+    <None Remove="Resources\background.png" />
+    <None Remove="Resources\close.png" />
+    <None Remove="Resources\cube.png" />
+    <None Remove="Resources\exit.png" />
+    <None Remove="Resources\float.png" />
+    <None Remove="Resources\geometry.png" />
+    <None Remove="Resources\graph.png" />
+    <None Remove="Resources\left.png" />
+    <None Remove="Resources\loading.png" />
+    <None Remove="Resources\logo_main.png" />
+    <None Remove="Resources\logo_mainb.png" />
+    <None Remove="Resources\mainIcon.ico" />
+    <None Remove="Resources\no.png" />
+    <None Remove="Resources\official.png" />
+    <None Remove="Resources\resize.png" />
+    <None Remove="Resources\right.png" />
+    <None Remove="Resources\settings.png" />
+    <None Remove="Resources\stat.png" />
+    <None Remove="Resources\sync.png" />
+    <None Remove="Resources\test.png" />
+    <None Remove="Resources\tric.png" />
+    <None Remove="Resources\tricutnik.png" />
+    <None Remove="Resources\yes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Styles\Button.xaml" />
+    <Page Remove="Styles\Colors.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZNO.BLL\ZNO.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\algebra.png" />
+    <Resource Include="Resources\autors.png" />
+    <Resource Include="Resources\background.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\cube.png" />
+    <Resource Include="Resources\exit.png" />
+    <Resource Include="Resources\float.png" />
+    <Resource Include="Resources\geometry.png" />
+    <Resource Include="Resources\graph.png" />
+    <Resource Include="Resources\left.png" />
+    <Resource Include="Resources\logo_main.png" />
+    <Resource Include="Resources\mainIcon.ico" />
+    <Resource Include="Resources\no.png" />
+    <Resource Include="Resources\official.png" />
+    <Resource Include="Resources\resize.png" />
+    <Resource Include="Resources\right.png" />
+    <Resource Include="Resources\settings.png" />
+    <Resource Include="Resources\stat.png" />
+    <Resource Include="Resources\sync.png" />
+    <Resource Include="Resources\test.png" />
+    <Resource Include="Resources\tric.png" />
+    <Resource Include="Resources\tricutnik.png" />
+    <Resource Include="Resources\yes.png" />
+    <Resource Include="Styles\Button.xaml" />
+    <Resource Include="Styles\Colors.xaml" />
+  </ItemGroup>
+
+</Project>
